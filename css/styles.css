@@ -1,0 +1,130 @@
+body
+{
+    background-color: #a48dce;
+}
+.quicksand-content> {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .limelight-regular {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+.navbar
+{
+    background-color: #3c2c59;
+}
+
+.navbar-logo {
+    height: 200px;
+    max-height: 100%; /* Adjust size as needed */
+    margin-bottom: 0; /* Remove any bottom margin */
+    padding-bottom: 0; /* Remove extra padding if present */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-item
+{
+ font-family: "Limelight", sans-serif;
+ font-size: 45pt;
+ font-style: normal;
+
+}
+
+
+.profilepic
+{
+    height: 404px ;
+    max-height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.aboutpic
+{
+    height: 660px ;
+    max-height: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1
+
+{font-size: 42pt;}
+
+p
+{
+    margin: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+
+}
+
+p.intro
+
+{
+    font-size: 16pt;
+}
+
+.contentbg
+{
+
+    background-color: #d9ceed;
+}
+
+
+footer
+{
+    background-color: #3c2c59;
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .controls button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    background: #444;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .gallery .mix {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
